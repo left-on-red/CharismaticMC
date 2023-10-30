@@ -1,0 +1,10 @@
+{
+  "badgeVisible": true,
+  "builtinServers": [
+    {
+      "name": "\u00A79\u1D0D\u1D04\u002E\u1D04\u029C\u1D00\u0280\u026A\u0073\u1D0D\u1D00\u002E\u1D05\u1D07\u1D20",
+      "address": "mc.charisma.dev",
+      "forced": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "style_name": "Default",
+  "update_tick_time": 20,
+  "list_header": [
+    "<gr:#9e3afc:#c09eff><bold>CharismaticMC</bold> ☁</gr>",
+    "<color:#555555><strikethrough>        </strikethrough>[ </color><color:#80b7ff>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>        </strikethrough></color>",
+    ""
+  ],
+  "list_footer": [
+    "",
+    "<gr:#9e3afc:#c09eff><color:#80b7ff>%server:tps%</color>ᴛᴘs <color:#80b7ff>%player:ping%</color>ᴘɪɴɢ</gr>"
+  ],
+  "hidden_in_commands": false
+}

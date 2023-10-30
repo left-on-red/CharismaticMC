@@ -1,0 +1,31 @@
+{
+  "client": {
+    "searchUsingItemInHand": false,
+    "playSoundOnRequest": false,
+    "closeGuiOnFoundResults": true,
+    "showSlotHighlights": true,
+    "showContainerNamesInResults": true,
+    "containerNameLabelScale": 1.0,
+    "randomScheme": true,
+    "colourScheme": "PRIDE",
+    "solidColour": -4531627,
+    "printSearchRequestsInChat": false,
+    "compatibility": {
+      "recipeBookSupport": true,
+      "jeiSupport": true,
+      "reiSupport": true,
+      "emiSupport": true
+    }
+  },
+  "common": {
+    "searchRangeBlocks": 8,
+    "doNestedSearch": true,
+    "enableDefaultSearchers": true,
+    "printSearchTime": false,
+    "commandAliases": [
+      "whereis"
+    ],
+    "fadeoutTimeTicks": 300,
+    "forceServerSideHighlightsOnly": false
+  }
+}

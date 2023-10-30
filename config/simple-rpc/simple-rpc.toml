@@ -1,0 +1,148 @@
+
+#General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
+[general]
+	#The Application ID of the Discord App to use
+	applicationID = 1167936685028417537
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = true
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+#The Game Loading event
+[init]
+	enabled = true
+	description = "Loading..."
+	state = ""
+	largeImageKey = ["logo"]
+	largeImageText = "mc.charisma.dev"
+	smallImageKey = []
+	smallImageText = ""
+	buttons = []
+
+#The Main Menu event
+[main_menu]
+	enabled = true
+	description = "Main menu"
+	state = "Just vibing..."
+	largeImageKey = ["logo"]
+	largeImageText = "mc.charisma.dev"
+	smallImageKey = []
+	smallImageText = ""
+	buttons = []
+
+#The Server List event
+[server_list]
+	enabled = true
+	description = "Server list"
+	state = "Going to hop on mc.charisma.dev probably"
+	largeImageKey = ["logo"]
+	largeImageText = "mc.charisma.dev"
+	smallImageKey = []
+	smallImageText = ""
+	buttons = []
+
+#The Realms Screen event
+[realms_list]
+	enabled = false
+	description = "%player% is looking for a Realm"
+	state = "Browsing Realms"
+	largeImageKey = ["logo"]
+	largeImageText = "mc.charisma.dev"
+	smallImageKey = []
+	smallImageText = ""
+	buttons = []
+
+[join_game]
+	enabled = true
+	description = "Joining..."
+	state = ""
+	largeImageKey = ["logo"]
+	largeImageText = "mc.charisma.dev"
+	smallImageKey = []
+	smallImageText = ""
+	buttons = []
+
+[single_player]
+	enabled = true
+	description = "Currently In %world%"
+	state = "Playing lonely mode"
+	largeImageKey = ["logo"]
+	largeImageText = "mc.charisma.dev"
+	smallImageKey = []
+	smallImageText = ""
+	buttons = []
+
+[multi_player]
+	enabled = true
+	description = "Playing on %serverip%"
+	state = "%players%/%maxplayers% online"
+	largeImageKey = ["logo"]
+	largeImageText = "mc.charisma.dev"
+	smallImageKey = []
+	smallImageText = ""
+	buttons = []
+
+[realms]
+	enabled = false
+	description = "Playing on %realmname%"
+	state = "Playing on a Realm"
+	largeImageKey = ["logo"]
+	largeImageText = "%realmdescription%"
+	smallImageKey = []
+	smallImageText = ""
+	buttons = []
+
+[generic]
+	description = "Playing CharismaticMC Modpack"
+	state = ""
+	largeImageKey = ["logo"]
+	largeImageText = "mc.charisma.dev"
+	smallImageKey = []
+	smallImageText = ""
+	buttons = []
+
+[custom]
+	enabled = true
+	#Your custom variables to add
+	variables = []
+
+#Dimension Information Overrides
+[dimension_overrides]
+	enabled = true
+
+    [[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "In the overworld"
+		state = "%players%/%maxplayers% online"
+		largeImageKey = ["overworld"]
+		largeImageText = "mc.charisma.dev"
+		smallImageKey = ["logo"]
+		smallImageText = "%mods% total mods"
+		buttons = []
+
+    [[dimension_overrides.dimensions]]
+        name = "the_nether"
+        description = "In the nether"
+        state = "%players%/%maxplayers% online"
+        largeImageKey = ["end"]
+        largeImageText = "mc.charisma.dev"
+        smallImageKey = ["logo"]
+        smallImageText = "%mods% total mods"
+        buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "In the end"
+		state = "%players%/%maxplayers% online"
+		largeImageKey = ["end"]
+		largeImageText = "mc.charisma.dev"
+		smallImageKey = ["logo"]
+		smallImageText = "%mods% total mods"
+		buttons = []
+
